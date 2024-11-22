@@ -1,0 +1,92 @@
+/* Global Background */
+body {
+  background-color: #f8f8f8; /* Light gray */
+  color: #333; /* Default text color */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Optional: To center vertically within the viewport */
+}
+
+img {
+  max-width: 100%; /* Optional: Responsive image */
+  height: auto;
+  margin-top: 10px;
+}
+/* Question Style */
+.question-text {
+  font-size: 3rem; /* Adjust based on screen size */
+  font-weight: 600; /* Semi-bold */
+  color: #ff7f8a; /* Light pink */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Decorative Heart */
+.heart-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 10vh; /* Optional: Full-height container */
+}
+
+.heart-icon {
+  font-size: 1.5rem;
+  color: #ff7f8a;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Space between buttons */
+}
+
+.second-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+/* Yes Button */
+.btn-yes {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between text and icon */
+  background-color: white;
+  border: 2px solid #ff7f8a;
+  color: #ff7f8a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px; /* Full rounded */
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-yes:hover {
+  background-color: #ffe6e8;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* No Button */
+.btn-no {
+  background-color: #ff7f8a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 9999px; /* Full rounded */
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-no:hover {
+  background-color: #ff4f5d;
+}
